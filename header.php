@@ -11,7 +11,7 @@
 <header id="masthead" class="site-header">
     <div class="container">
         <div class="site-branding">
-            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+            <a href="<?php echo esc_url( home_url( '/inicio' ) ); ?>" rel="home">
                 <img src="<?php echo esc_url( get_theme_file_uri( 'img/logo.png' ) ); ?>" 
                      alt="<?php bloginfo('name'); ?>" 
                      class="site-logo">

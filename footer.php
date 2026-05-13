@@ -16,7 +16,9 @@
                 <?php dynamic_sidebar( 'footer-1' ); ?>
             <?php else : ?>
                 <div class="footer-logo">
-                    <img src="<?php echo esc_url( get_theme_file_uri( 'img/logo.png' ) ); ?>" alt="Logo" class="site-logo">
+                    <a href="<?php echo esc_url( home_url( '/inicio' ) ); ?>">
+                        <img src="<?php echo esc_url( get_theme_file_uri( 'img/logo.png' ) ); ?>" alt="Logo" class="site-logo">
+                    </a>
                 </div>
                 <p>Explora la magia de Venezuela. Desde las cumbres nevadas de los Andes hasta las arenas blancas del Caribe.</p>
                 <div class="social-icons">
