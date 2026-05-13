@@ -21,12 +21,14 @@
                     </a>
                 </div>
                 <p>Explora la magia de Venezuela. Desde las cumbres nevadas de los Andes hasta las arenas blancas del Caribe.</p>
-                <div class="social-icons">
-                    <a href="#" class="social-icon" title="Instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="social-icon" title="YouTube"><i class="fab fa-youtube"></i></a>
-                    <a href="https://wa.me/tu-numero" class="social-icon" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-                </div>
             <?php endif; ?>
+            
+            <!-- Redes sociales permanentes debajo de los widgets de la Columna 1 -->
+            <div class="social-icons">
+                <a href="#" class="social-icon" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon" title="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="https://wa.me/tu-numero" class="social-icon" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            </div>
         </div>
         
         <!-- Columna 2 -->

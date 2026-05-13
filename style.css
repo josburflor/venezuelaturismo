@@ -124,6 +124,25 @@ a { text-decoration: none; color: inherit; transition: var(--transition); }
     box-shadow: 0 6px 20px rgba(206, 17, 38, 0.3);
 }
 
+.footer-info-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.site-info .social-icons {
+    margin-top: 0; /* Quitamos el margen superior en esta posición */
+}
+
+@media (max-width: 768px) {
+    .footer-info-flex {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
 /* 4. Hero Section Slider */
 .hero-section {
     height: 75vh;
