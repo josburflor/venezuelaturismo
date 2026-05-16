@@ -81,14 +81,36 @@ a { text-decoration: none; color: inherit; transition: var(--transition); }
 }
 
 .site-logo {
-    height: 55px;
+    height: 60px;
     width: auto;
+    transition: var(--transition);
+}
+
+.site-logo:hover {
+    transform: scale(1.05);
+}
+
+.site-logo-fallback {
+    text-decoration: none;
+}
+
+.site-title {
+    font-size: 1.8rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    background: linear-gradient(135deg, #0033A0 0%, #0072CE 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    line-height: 1;
 }
 
 .main-navigation ul {
     display: flex;
     list-style: none;
     gap: 2rem;
+    margin: 0;
 }
 
 .main-navigation a {

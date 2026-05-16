@@ -9,7 +9,7 @@
         <?php the_content(); ?>
 
         <?php if ( is_page( 'nosotros' ) && function_exists('get_field') ) : ?>
-            <?php $integrantes = get_field( 'integrantes_del_equipo' ); // Cambia este nombre si es diferente ?>
+            <?php $integrantes = get_field( 'integrantes_del_equipo' ); ?>
             <?php if ( $integrantes ) : ?>
                 <div class="equipo-info" style="background: #f0f7ff; padding: 20px; border-radius: 12px; margin-top: 30px;">
                     <h3>🤝 Nuestro equipo</h3>
