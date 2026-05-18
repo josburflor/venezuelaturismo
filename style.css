@@ -969,3 +969,29 @@ body.page-id-NUMERO .entry-content { /* reemplaza NUMERO con el ID de tu página
         padding: 0 15px;
     }
 }
+
+
+/* Sección Nosotros - Estilos para ACF */
+.acf-block {
+    background: #ffffff;
+    border-left: 5px solid #CE1126;
+    padding: 25px 30px;
+    border-radius: 12px;
+    margin-top: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.acf-block:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+.acf-block h3 {
+    color: #0033A0;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+.acf-block p {
+    margin-bottom: 0;
+    line-height: 1.6;
+}

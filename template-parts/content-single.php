@@ -36,15 +36,15 @@
             
             if ( $mejor_epoca || $precio || $consejo ) : ?>
                 <div class="acf-fields-entrada" style="background: #f0f7ff; padding: 20px; border-radius: 12px; margin-top: 30px;">
-                    <h3>📋 <?php esc_html_e( 'Información adicional', 'venezuela-turismo' ); ?></h3>
+                    <h3> <?php esc_html_e( 'Información adicional', 'venezuela-turismo' ); ?></h3>
                     <?php if ( $mejor_epoca ) : ?>
-                        <p><strong>📅 <?php esc_html_e( 'Mejor época:', 'venezuela-turismo' ); ?></strong> <?php echo esc_html( $mejor_epoca ); ?></p>
+                        <p><strong> <?php esc_html_e( 'Mejor época:', 'venezuela-turismo' ); ?></strong> <?php echo esc_html( $mejor_epoca ); ?></p>
                     <?php endif; ?>
                     <?php if ( $precio ) : ?>
-                        <p><strong>💰 <?php esc_html_e( 'Precio:', 'venezuela-turismo' ); ?></strong> <?php echo esc_html( $precio ); ?></p>
+                        <p><strong> <?php esc_html_e( 'Precio:', 'venezuela-turismo' ); ?></strong> <?php echo esc_html( $precio ); ?></p>
                     <?php endif; ?>
                     <?php if ( $consejo ) : ?>
-                        <p><strong>🎒 <?php esc_html_e( 'Consejo:', 'venezuela-turismo' ); ?></strong> <?php echo esc_html( $consejo ); ?></p>
+                        <p><strong> <?php esc_html_e( 'Consejo:', 'venezuela-turismo' ); ?></strong> <?php echo esc_html( $consejo ); ?></p>
                     <?php endif; ?>
                 </div>
             <?php endif; ?>
